@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="head">Todo List</h1>
+            <input type="text" id="taskInput" placeholder="Masukkan tugas" class="InpUs">
+            <button id="addBtn" class="btnUs">Tambah</button>
+            <br>
+            <div class="filter">
+                <label class="labelUs">Filter: </label>
+                <button id="all" class="btnUsFil">Semua</button>
+                <button id="done" class="btnUsFil">Selesai</button>
+                <button id="pending" class="btnUsFil">Belum</button>
+            </div>
+            <ul id="todoList" class="ulBase"></ul>
+        </div>
+    </div>
+    <script type="module" src="./js/event.js"></script>
+    <script type="module" src="./js/storage.js"></script>
+    <script type="module" src="./js/todo.js"></script>
+    <script type="module" src="./js/ui.js"></script>
+</body>
+
+</html>

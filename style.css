@@ -1,0 +1,137 @@
+*,
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head {
+  padding: 10px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.container {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  border-radius: 10px;
+  margin: 10cm;
+  margin-top: 1cm;
+  -webkit-box-shadow: 3px 3px 40px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 3px 3px 40px 0px rgba(66, 68, 90, 1);
+  box-shadow: 3px 3px 40px 0px rgba(66, 68, 90, 1);
+}
+
+.InpUs {
+  display: block;
+  width: 80%; /* atur lebar input */
+  max-width: 300px; /* batas maksimal */
+  margin: 10px auto; /* biar rata tengah */
+  padding: 10px; /* padding normal */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: gray;
+  text-align: left;
+  box-sizing: border-box; /* penting supaya padding tidak ganggu width */
+}
+.InpUs:hover {
+  background-color: #fcfcfc;
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.btnUs {
+  width: 80%; /* atur lebar input */
+  max-width: 300px; /* batas maksimal */
+  margin: 10px auto; /* biar rata tengah */
+  padding: 10px;
+  display: flex;
+  background-color: gray;
+  border: 1px solid #ccc;
+  color: white;
+
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.btnUs:hover {
+  background-color: #333;
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.filter {
+  display: block;
+  width: 80%; /* atur lebar input */
+  max-width: 300px; /* batas maksimal */
+  margin: 10px auto; /* biar rata tengah */
+  padding: 10px; /* padding normal */
+  font-weight:600;
+}
+
+.btnUsFil {
+  width: 26%; /* atur lebar input */
+  max-width: 300px; /* batas maksimal */
+  margin: 10px auto; /* biar rata tengah */
+  padding: 10px;
+  background-color: gray;
+  border: 1px solid #ccc;
+  color: white;
+
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.btnUsFil:hover {
+  background-color: #333;
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.ulBase {
+  display: block;
+  width: 80%; /* atur lebar input */
+  max-width: 300px; /* batas maksimal */
+  margin: 10px auto; /* biar rata tengah */
+  padding: 10px; /* padding normal */
+}
+
+.btn-hps {
+  width: 25%; /* atur lebar input */
+  max-width: 300px; /* batas maksimal */
+  margin: 10px auto; /* biar rata tengah */
+  padding: 10px;
+  background-color: rgb(200, 0, 0);
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px;
+}
+.btn-hps:hover {
+  background-color: #ac0000;
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.btn-done {
+  width: 25%; /* atur lebar input */
+  max-width: 300px; /* batas maksimal */
+  margin: 10px auto; /* biar rata tengah */
+  padding: 10px;
+  background-color: green;
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px;
+}
+.btn-done:hover {
+  background-color: rgb(0, 80, 0);
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+}
